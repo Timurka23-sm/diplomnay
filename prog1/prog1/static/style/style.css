@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Instrument Serif&display=swap");
+
+
+body {
+    
+    font-family:Instrument Serif ;
+    
+     background: -webkit-linear-gradient(90deg, #3f5c63,#658a94,#fd6284,#2d376c,#010133);
+    background: linear-gradient(90deg, #3f5c63,#658a94,#fd6284,#2d376c,#010133);
+ 
+}
+
+.navbar-brand img{
+    width: 45px;
+}
+.nav-link{
+    font-size:20px;
+    color: aqua;
+}
+.dropdown-item{
+    color: aqua;
+}
+.form-control{
+    color: aqua;
+  border-color: aqua;
+  border: var(aqua) solid var(aqua);
+
+}
+
+.btn {
+    color: aqua;
+    border-color: aqua;
+}
+.navbar-toggler{
+    border-color: aqua ;
+}
+.sidebar{
+    color:white;
+    background: -webkit-linear-gradient(270deg, #010133,#2d376c,#fd6284,#2d376c);
+    background: linear-gradient(270deg, #010133,#2d376c,#fd6284,#2d376c); 
+    
+}
+.card{
+    color:white;
+    background: -webkit-linear-gradient(270deg, #010133,#2d376c,#fd6284,#2d376c);
+    background: linear-gradient(270deg, #010133,#2d376c,#fd6284,#2d376c); 
+   
+}
+.card a{
+    text-decoration: none;
+    color:white;
+}
+.row h1{
+    text-align: center ;
+    color: white;
+    font-size: 70px;
+}
+.row ul{
+    color: white;
+    font-size: 20px;  
+}
+.row a{
+    color: white;
+}
+.image{
+    text-align: center;    
+}
+.text{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.cent{
+    text-align: center;
+    color: white;
+}
+.list-conteiner li{
+    margin-top: 6px;
+}
+.cente{
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+.phpd{
+    color: white;
+    
+}
+.video{
+    text-align: center;
+   
+}
+.footer-text{
+    color: white;
+    font-size: 20px;
+    background:#212121 ;
+    
+}
+.search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 15px;
+    width: 33%;
+    font-family: Arial;
+    font-size: 24px;
+    }
+.slide-text{
+    color:white;
+    margin: auto auto;
+}
+@media(max-width:755px){
+    .carousel-indicators
+    {
+        display: none;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #2d376c;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom ,#010133,
+    #2d376c);
+    border-radius: 8px;
+    border: 3px solid #2d376c;
+}
+.coll-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.col-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
