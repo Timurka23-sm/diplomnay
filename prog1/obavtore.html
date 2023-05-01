@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style/style.css">
+    <link rel="stylesheet" href="static/style/index.js">
     <link rel="shortcut icon" href="static/files/logo.png" type="image/png">
     <style>
       a{
@@ -14,7 +15,7 @@
   </style>
    <title>Электронное учебное пособие</title>
 </head>
-<body>
+<body onload="NextQuestion(0)">
     <head>  
     
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
@@ -46,10 +47,6 @@
                       </li>
                 
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-                  <button class="btn btn-outline-info" type="submit">Найти</button>
-                </form>
               </div>
             </div>
           </nav>
@@ -61,10 +58,7 @@
              <div class="col-lg-1">  
              </div>
              <div class="col-lg-8 col-md-12">  
-               <div class="row">
-         
-
-             
+               <div class="row">            
                </div>
        
              </div>
@@ -82,23 +76,28 @@
        
           </section>
 
-    <footer>
-        <div class="container-fleid mt-5">
-         <div class="row">
-         <div class="col-lg-4 col-md-12 footer-text text-center">
-           <p>Все права защищены2023</p>
-         </div>
-         <div class="col-lg-4 col-md-12 footer-text text-center" >
-           <img  style="width: 40px;" src="static/files/pngegg.png" alt="...">
-           <img style="width: 40px;" src="static/files/pngegg(1).png" alt="...">
-         </div>  
-          <div class="col-lg-4 col-md-12 footer-text text-center">
-             <p> <a href="#" style="color:white;">В начало страницы</a></p>
-    
+          <footer>
+            <div class="container-fleid mt-5">
+             <div class="row">
+             <div class="col-lg-4  col-md-12 footer-text text-center">
+               <p>© Все права защищены.2023</p>
+             </div>
+             <div class="col-lg-4  col-md-12 footer-text text-center" >
+              <p class="col-lg-4 col-md-12 footer-text ">Контактная информация</p>
+             <div class="col-lg-4 col-md-12 footer-text text-center" >         
+               <a href="https://wa.me/89515495822" target="_blank"><img class="coll-anim" style="width: 40px; margin-inline: 0.5em;" src="static/files/pngegg.png" alt="..."></a>
+               <a href="https://vk.com/malenkoeplamy" target="_blank"><img class="col-anim" style="width: 40px; margin-inline: 0.5em;" src="static/files/pngegg(1).png" alt="..."></a>
+                <a href="mailto:tima.eliseev.15@bk.ru"><img class="col-anim" style="width: 40px; margin-inline: 0.5em;" src="static/files/pozta.png" alt="..."></a>
+      
+              </div> 
+             </div>  
+              <div class="col-lg-4 col-md-12 footer-text text-center">
+                 <p> <a href="#" style="color:white;">В начало страницы</a></p>
+        
+              </div>
           </div>
-      </div>
-     </div>
-     </footer>
+         </div>
+         </footer>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
